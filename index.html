@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<div class="row">
+			<div class="col-md-12 header">
+				<h1> Crystals Collector</h1>
+			</div>
+        </div>
+        <div class="row">
+			<div class="col-md-12 header">
+				<p> How to Play :<br>You will be given a random "Target" number at the start of the game. There are 4 Crystals 
+                     to choose from.  Each Crystal contains a certain value that is added to your score
+                    when clicked on. You win the game by matching your number to the "Target" number. 
+                    Your Wins and Losses will be calculated below.  After each game the values of the crystals
+                    will be reset.  Good Luck!
+                </p>
+			</div>
+		</div>
+		<div class="row scoreboard">
+			<div class="col-md-4 results">
+				Target :&nbsp<span id="targetNo">10</span>
+			</div>
+			<div class="col-md-4  results">
+				Wins : <span id="wins">0</span>
+			</div>
+			<div class="col-md-4 results">
+				Losses : <span id="losses">0</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6  crystals">
+				<img id="crystal1" src="assets/images/crystal1.jpg">
+				<img id="crystal2" src="assets/images/crystal3.jpg">
+				<img id="crystal3" src="assets/images/crystal2.jpg">
+				<img id="crystal4" src="assets/images/crystal4.jpg">
+
+			</div>
+
+			<div class="col-md-6 ">
+				
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 score">
+				<div>Your score is : <span id="currentscore">0</span></div>
+			</div>
+			
+		</div>
+
+	</div>
+		
+</body>
+</html>
